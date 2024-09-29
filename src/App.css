@@ -1,0 +1,44 @@
+.upper-nav .upper-nav1 {
+  background-color: #ff7350;
+  background-image: linear-gradient(
+    to right,
+    #ff7350,
+    #ff7350 15%,
+    #ff7350 15%,
+    #125875 85%,
+    #125875
+  );
+
+  color: #fff;
+}
+
+.upper-nav .dropdown-menu {
+  background-color: #fff;
+  border-top: 4px solid #ff7350;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  border-radius: 0;
+}
+
+.polaroid img {
+  height: 260px;
+  border-radius: 10px;
+}
+/* .upper-nav .has-dropdown > ul {
+  visibility: hidden;
+  position: absolute;
+  background-color: #ffff;
+  min-width: 250px;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+  border-top: 4px solid #ff7350;
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  opacity: 0;
+} */
+
+/* Carousel.css */
