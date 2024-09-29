@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* .carousel-inner {
+  filter: brightness(0.5);
+} */
+
+.carousel-item img {
+  /* Set a specific height */
+  height: 450px;
+  /* Position and center the image to scale nicely on all screens */
+
+  width: auto;
+  max-width: 100%;
+
+  z-index: 0 !important;
+}
+.carousel-inner .carousel-item {
+  position: relative;
+}
+.carousel-inner .carousel-caption {
+  position: absolute;
+  top: 15%;
+  /* left: -33%; */
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  p {
+    color: yellow !important;
+    text-shadow: 2px 2px teal;
+    margin: 0;
+  }
+}
+
+/* button code */
+.box-3 {
+  background-color: #ff7350;
+  margin-top: 20px;
+}
+.box-4 {
+  margin-top: 20px;
+  background-color: #125875;
+}
+.btn-three {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  width: 150px;
+  height: 40px;
+  padding-top: 8px;
+}
+.btn-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 40px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+.btn-three:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+.btn-three::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 40px;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid #125875;
+  transform: scale(1.2, 1.2);
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
