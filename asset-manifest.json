@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tech-bootcamp/static/css/main.4b699f3e.css",
-    "main.js": "/tech-bootcamp/static/js/main.9eac2527.js",
+    "main.css": "/tech-bootcamp/static/css/main.fde9024a.css",
+    "main.js": "/tech-bootcamp/static/js/main.78da4c2d.js",
     "static/js/453.9ff21c95.chunk.js": "/tech-bootcamp/static/js/453.9ff21c95.chunk.js",
     "static/media/banner2.png": "/tech-bootcamp/static/media/banner2.b33ac751630dcf4dd5e1.png",
     "static/media/full-stack.jpg": "/tech-bootcamp/static/media/full-stack.1cb0f314caea70298ebf.jpg",
@@ -19,12 +19,12 @@
     "static/media/slick.ttf": "/tech-bootcamp/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tech-bootcamp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tech-bootcamp/index.html",
-    "main.4b699f3e.css.map": "/tech-bootcamp/static/css/main.4b699f3e.css.map",
-    "main.9eac2527.js.map": "/tech-bootcamp/static/js/main.9eac2527.js.map",
+    "main.fde9024a.css.map": "/tech-bootcamp/static/css/main.fde9024a.css.map",
+    "main.78da4c2d.js.map": "/tech-bootcamp/static/js/main.78da4c2d.js.map",
     "453.9ff21c95.chunk.js.map": "/tech-bootcamp/static/js/453.9ff21c95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b699f3e.css",
-    "static/js/main.9eac2527.js"
+    "static/css/main.fde9024a.css",
+    "static/js/main.78da4c2d.js"
   ]
 }
